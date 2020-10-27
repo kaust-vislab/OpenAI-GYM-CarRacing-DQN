@@ -1,0 +1,21 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cudatoolkit
+  - jupyterlab
+  - keras-tuner
+  - matplotlib
+  - networkx
+  - numpy
+  - pip
+  - pip:
+    - -r file:requirements.txt
+  - python
+  - scikit-learn
+  - scipy
+  - tensorflow-gpu
+  - tqdm
