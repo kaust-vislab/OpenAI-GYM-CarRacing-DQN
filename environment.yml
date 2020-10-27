@@ -6,16 +6,20 @@ channels:
 
 dependencies:
   - cudatoolkit
+  - gym-box2d
   - jupyterlab
   - keras-tuner
   - matplotlib
   - networkx
+  - nodejs
   - numpy
   - pip
   - pip:
     - -r file:requirements.txt
+  - pyvirtualdisplay
   - python
   - scikit-learn
   - scipy
+  - tensorboard
   - tensorflow-gpu
   - tqdm

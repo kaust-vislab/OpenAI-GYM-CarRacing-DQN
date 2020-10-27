@@ -1,1 +1,9 @@
+jupyterlab-nvdashboard
+jupyter-tensorboard
+
+# dependencies required for virtual displays (requires Xvfb installed on system)
+PyOpenGL
+PyOpenGL-accelerate
+
+# install QKeras from GitHub repo
 git+https://github.com/google/qkeras#egg=qkeras
