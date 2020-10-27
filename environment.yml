@@ -6,6 +6,7 @@ channels:
 
 dependencies:
   - cudatoolkit
+  - cudnn
   - gym-box2d
   - jupyterlab
   - keras-tuner
